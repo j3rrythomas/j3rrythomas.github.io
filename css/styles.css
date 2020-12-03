@@ -1,0 +1,82 @@
+.tm-down-arrow-link {
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    #main-title-container {
+        margin-right: 5%;
+    }
+    #main-title-container p {
+        text-align: right;
+    }
+}
+
+.tm-text-primary {
+    color: #757575;
+}
+
+.tm-icon {
+    color: #757575;
+}
+
+#nav-logo {
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.tm-navbar.scroll .tm-nav-link:hover,
+.tm-navbar.scroll .tm-nav-link.current,
+.tm-nav-link:hover {
+    background-color: #757575;
+}
+
+.tm-navbar.scroll .tm-nav-link {
+    color: #757575;
+}
+
+.tm-btn-primary {
+    background-color: #868282;
+}
+
+a {
+    color: #000000;
+}
+
+a:hover {
+    box-shadow: 5px 10px 18px #868282;
+}
+
+.tm-btn-primary:hover {
+    background-color: #D40;
+    box-shadow: 5px 10px 18px #868282;
+}
+
+.tm-intro-text-container {
+    margin-right: 15%;
+}
+
+.carousel-item>img {
+    width: 288px;
+    height: 411px;
+}
+
+.tm-skills-carousel {
+    margin: 20%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.tm-gallery-item img {
+    height: 330px;
+    width: 220px;
+}
+
+@media screen and (max-width:600px) {
+    .tm-gallery-item {
+        margin: 5%;
+    }
+}
+
+#contact {
+    margin-top: 5%;
+}

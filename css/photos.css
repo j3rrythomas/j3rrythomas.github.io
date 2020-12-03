@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* max-height: 500vh; */
+    background: linear-gradient( rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.685));
+    background-image: url('../img/gallery-wallpaper.jpeg');
+    /* background-repeat: none; */
+    background-size: cover;
+    overflow: auto;
+}
+
+h1 {
+    margin: 4% 0% 4% 0%;
+    position: relative;
+    left: 45%;
+    translate: (-45%);
+}
+
+@media screen and (max-width:768px) {
+    h1 {
+        left: 40%;
+    }
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-column-gap: 3%;
+    grid-row-gap: 4%;
+    align-items: center;
+}
+
+.gallery img {
+    /* margin: 5%;
+    padding: 5%; */
+    width: 100%;
+}
