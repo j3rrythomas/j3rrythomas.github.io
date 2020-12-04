@@ -60,10 +60,12 @@ a:hover {
     height: 411px;
 }
 
-.tm-skills-carousel {
-    margin: 20%;
-    margin-top: 2%;
-    margin-bottom: 2%;
+@media screen and (min-width:600px) {
+    .tm-skills-carousel {
+        margin: 20%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
 }
 
 .tm-gallery-item img {
