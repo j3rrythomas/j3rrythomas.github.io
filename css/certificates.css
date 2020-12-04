@@ -1,4 +1,9 @@
 * {
     margin: 2%;
     padding: 2%;
+    box-sizing: border-box;
+}
+
+a {
+    margin-left: 10%;
 }
