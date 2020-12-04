@@ -17,7 +17,6 @@ h1 {
     margin: 4% 0% 4% 0%;
     position: relative;
     left: 45%;
-    translate: (-45%);
 }
 
 @media screen and (max-width:768px) {
