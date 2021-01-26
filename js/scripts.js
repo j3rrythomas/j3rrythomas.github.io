@@ -1,10 +1,15 @@
-$(document).ready(function() {
-    // $(body).hide();
-    // $(body).fadeIn(2000);
-    $("#infinite").hide();
-    $("#infinite").fadeIn(750);
-    $("#tmNav").hide();
-    $("#tmNav").fadeIn(4000);
-    $("#main-title-container").hide();
-    $("#main-title-container").fadeIn(5000);
-});
+const navbar = document.querySelector("#tmNav");
+const logo = document.querySelector("#nav-logo");
+
+console.log(navbar, logo);
+setInterval(() => {
+    if (navbar.classList.contains('scroll')) {
+        logo.classList.add('nav-logo-scroll');
+
+    } else {
+        if (logo.classList.contains('nav-logo-scroll')) {
+            logo.classList.remove('nav-logo-scroll');
+
+        }
+    }
+}, 500);

@@ -21,7 +21,11 @@
 
 #nav-logo {
     height: 3.5rem;
-    width: 3.5rem;
+    width: 15rem;
+}
+
+.nav-logo-scroll {
+    background: linear-gradient(92.54deg, #2E577E 0%, rgba(42, 84, 133, 0.58) 100%);
 }
 
 .tm-navbar.scroll .tm-nav-link:hover,
