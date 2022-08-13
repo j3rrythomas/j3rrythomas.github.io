@@ -1,40 +1,49 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background: #1565C0;
-    background: -webkit-linear-gradient(to top, #1565C0, #b92b27);
-    background: linear-gradient(to top, #1565C0, #b92b27);
-    background-size: cover;
+  background: #2193b0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #6dd5ed,
+    #2193b0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #6dd5ed,
+    #2193b0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  margin: 0 40px;
 }
 
 h1 {
-    color: rgb(241, 219, 219);
-    margin: 4% 0%;
-    position: relative;
-    left: 45%;
-    right: 0%;
+  color: rgb(241, 219, 219);
+  margin: 4% 0%;
+  position: relative;
+  left: 45%;
+  right: 0%;
 }
 
-@media screen and (max-width:768px) {
-    h1 {
-        left: 40%;
-    }
+@media screen and (max-width: 768px) {
+  h1 {
+    left: 40%;
+  }
 }
 
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-    grid-column-gap: 3%;
-    grid-row-gap: 4%;
-    align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  grid-column-gap: 3%;
+  grid-row-gap: 4%;
+  align-items: center;
 }
 
 .gallery img {
-    /* margin: 5%;
+  /* margin: 5%;
     padding: 5%; */
-    width: 100%;
+  width: 100%;
 }
